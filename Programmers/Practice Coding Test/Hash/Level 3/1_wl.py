@@ -1,8 +1,8 @@
 # Problem:
-# Given two lists: genres and plays, make album with 2 most played songs.
+# Given two lists: genres and plays, make album with 2 most played songs in 1 genre.
 # Condition(s):
 # 1. Most played genre first.
-# 2. Most played song first
+# 2. Most played song first.
 # 3. If songs have same number of plays, low index first.
 
 # My Solution:
