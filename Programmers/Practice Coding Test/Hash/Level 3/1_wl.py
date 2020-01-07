@@ -1,5 +1,5 @@
 # Problem:
-# Given two lists: genres and plays, make album with 2 most played songs in 1 genre.
+# Given two lists: genres and plays, make album with 2 most played songs in each genre.
 # Condition(s):
 # 1. Most played genre first.
 # 2. Most played song first.
