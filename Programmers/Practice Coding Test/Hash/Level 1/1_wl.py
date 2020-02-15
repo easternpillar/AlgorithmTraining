@@ -3,7 +3,7 @@
 # Condition(s):
 # 1. Only one person did not complete the race.
 
-# My Solution: DENIED
+# My Solution: DENIED. (Time complexity is not satisfied.)
 # def solution(participant, completion):
 #     for name in participant:
 #             if participant.count(name)!=completion.count(name):

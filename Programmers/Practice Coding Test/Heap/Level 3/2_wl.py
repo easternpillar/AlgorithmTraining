@@ -6,7 +6,7 @@
 # 3. D -1: delete minimum integer.
 # 4. if it is empty, return [0, 0], or return [maximum, minimum].
 
-# My Solution: DENIED.
+# My Solution: DENIED. (The .pop() makes heap unusable.)
 # import heapq
 #
 #
@@ -51,3 +51,6 @@ def solution(operation):
         answer = [max(temp), min(temp)]
 
     return answer
+
+# Learned:
+# 1. The .pop() method makes heap unusable.
