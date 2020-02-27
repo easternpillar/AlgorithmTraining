@@ -1,66 +1,43 @@
 # Problem:
-# Given a sequence of alphabets, return the number of times that should be shifted.
-# Condition(s):
-# 1. One shift is needed for changing alphabet.
-# 2. One shift is needed for moving to next element.
+# Given a number, return maximum number when k numbers are removed.
 
-# My Solution:
-def solution(name):
-    answer = 0
-    direction = 1
-    i = 0
-    complete = 0
-    name = list(name)
-    length = len(name)
+# My Solution: Denied.
+# def solution(number, k):
+#     answer = []
+#     number = list(number)
+#     len_num = len(number)
+#     idx = 0
+#     done = len_num - k
+#
+#     while len(answer) < done:
+#         maximum = max(number[idx:k + 1])
+#         answer.append(maximum)
+#         idx += number[idx:].index(maximum) + 1
+#         k += 1
+#
+#         if done - len(answer) == len(number[idx:]):
+#             answer.extend(number[idx:])
+#             break
+#
+#     return "".join(answer)
 
-    while True:
+def solution(number, k):
+    collected = []
 
-        temp = ord(name[i]) - ord('A')
-        if temp <= 13:
-            answer += temp
-        else:
-            answer += 26 - temp
-        name[i] = 'A'
-        complete += 1
-        if name == ['A'] * length or complete == length:
+    for (i, num) in enumerate(number):
+        while collected and collected[-1] < num and k > 0:
+            collected.pop()
+            k -= 1
+
+        if k == 0:
+            collected += number[i:]
             break
 
-        max_a = [0, 0]
+        collected.append(num)
 
-        idx = i
-        while True:
-            idx += 1
-            if idx >= length:
-                idx %= length
-            if name[idx] != 'A':
-                break
-            else:
-                max_a[0] += 1
-
-        idx = i
-        while True:
-            idx -= 1
-            if idx < 0:
-                idx += length
-            if name[idx] != 'A':
-                break
-            else:
-                max_a[1] += 1
-
-        if max_a[0] > max_a[1]:
-            direction = -1
-        else:
-            direction = 1
-
-        while name[i] == 'A':
-            i += direction
-            if i < 0:
-                i += length
-            if i >= length:
-                i %= length
-            answer += 1
-
+    collected = collected[:-k] if k > 0 else collected
+    answer = "".join(collected)
     return answer
 
 # Learned:
-# 1. chr() and ord(): convert between ASCII code and character.
+# 1. Stack: stack is better because number[idx:] has O(n) time complexity.
