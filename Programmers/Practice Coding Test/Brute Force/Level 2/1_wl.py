@@ -1,6 +1,5 @@
 # Problem:
 # Given numbers from 0 to 9, return the number of prime numbers that can be made by permutations.
-# Condition(s):
 
 # My Solution:
 import itertools

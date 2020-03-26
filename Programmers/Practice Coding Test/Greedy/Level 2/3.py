@@ -1,5 +1,5 @@
 # Problem:
-# Given wieghts of people and limit weight of boat, return how many boats will be needed.
+# Given weights of people and limit weight of boat, return how many boats will be needed.
 # Condition(s):
 # 1. The limit of passengers is 2 people.
 
