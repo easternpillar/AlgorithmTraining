@@ -17,14 +17,13 @@ def solution(participant, completion):
     return list(answer.keys())[0]
 
 # Other Solution(s):
-# 1.
-# def solution(participant, completion):
-#     participant.sort()
-#     completion.sort()
-#     for p, c in zip(participant, completion):
-#         if p != c:
-#             return p
-#     return participant[-1]
+def solution(participant, completion):
+    participant.sort()
+    completion.sort()
+    for p, c in zip(participant, completion):
+        if p != c:
+            return p
+    return participant[-1]
 
 # Learned:
 # 1. collections.Counter(): make hash dictionary (key: elements, value: counts).
