@@ -46,7 +46,6 @@ while stack:
             flag = 0
             break
 
-    # Red
     while li[red_pos[0] + 1][red_pos[1]] != '#':
         red_pos[0] += 1
         if flag == 1 and red_pos == hole:
@@ -65,14 +64,13 @@ while stack:
     flag = 1
     red_pos = temp[0].copy()
     blue_pos = temp[2].copy()
-    # Blue
+
     while li[blue_pos[0] - 1][blue_pos[1]] != '#':
         blue_pos[0] -= 1
         if blue_pos == hole:
             flag = 0
             break
 
-    # Red
     while li[red_pos[0] - 1][red_pos[1]] != '#':
         red_pos[0] -= 1
         if flag == 1 and red_pos == hole:
@@ -92,14 +90,12 @@ while stack:
     red_pos = temp[0].copy()
     blue_pos = temp[2].copy()
 
-    # Blue
     while li[blue_pos[0]][blue_pos[1] + 1] != '#':
         blue_pos[1] += 1
         if blue_pos == hole:
             flag = 0
             break
 
-    # Red
     while li[red_pos[0]][red_pos[1] + 1] != '#':
         red_pos[1] += 1
         if flag == 1 and red_pos == hole:
@@ -119,14 +115,12 @@ while stack:
     red_pos = temp[0].copy()
     blue_pos = temp[2].copy()
 
-    # Blue
     while li[blue_pos[0]][blue_pos[1] - 1] != '#':
         blue_pos[1] -= 1
         if blue_pos == hole:
             flag = 0
             break
 
-    # Red
     while li[red_pos[0]][red_pos[1] - 1] != '#':
         red_pos[1] -= 1
         if flag == 1 and red_pos == hole:
