@@ -6,26 +6,25 @@ import itertools
 
 n = int(input())
 nums = list(map(int, input().split()))
-opers = list(map(int, input().split()))
+nops = list(map(int, input().split()))
+ops = [i for i in range(4) for j in range(nops[i])]
 
-op = ''
-for idx, oper in enumerate(opers):
-    op += str(idx) * oper
+answer = set()
+for tempop in list(itertools.permutations(ops)):
+    fn = nums[0]
+    for i in range(1, len(nums), 1):
+        if tempop[i - 1] == 0:
+            fn += nums[i]
+        elif tempop[i - 1] == 1:
+            fn -= nums[i]
+        elif tempop[i - 1] == 2:
+            fn *= nums[i]
+        else:
+            if fn < 0:
+                fn = -(abs(fn) // nums[i])
+            else:
+                fn //= nums[i]
+    answer.add(fn)
 
-op = list(map(int, op))
-res_list = []
-for now_op in set(itertools.permutations(op, len(op))):
-    res = nums[0]
-    for idx in range(n - 1):
-        if now_op[idx] == 0:
-            res += nums[idx + 1]
-        elif now_op[idx] == 1:
-            res -= nums[idx + 1]
-        elif now_op[idx] == 2:
-            res *= nums[idx + 1]
-        elif now_op[idx] == 3:
-            res = res // nums[idx + 1] if res > 0 else ((res * -1) // nums[idx + 1]) * -1
-    res_list.append(res)
-
-print(max(res_list))
-print(min(res_list))
+print(max(answer))
+print(min(answer))

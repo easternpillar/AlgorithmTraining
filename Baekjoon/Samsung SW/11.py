@@ -7,24 +7,14 @@ import itertools
 n = int(input())
 table = [list(map(int, list(input().split()))) for _ in range(n)]
 
-p = []
-for team in list(itertools.combinations([i for i in range(n)], n // 2)):
-    p.append(team)
-
-m = 9999
-for i in range(len(p) // 2):
+answer = set()
+for p in list(itertools.combinations([i for i in range(n)], n // 2)):
     t1 = t2 = 0
-    team = p[i]
-    for j in range(n // 2):
-        member = team[j]
-        for k in team:
-            t1 += table[member][k]
-
-    team = p[-i - 1]
-    for j in range(n // 2):
-        member = team[j]
-        for k in team:
-            t2 += table[member][k]
-    m = min(m, abs(t1 - t2))
-
-print(m)
+    for i in range(n):
+        for j in range(i, n, 1):
+            if i in p and j in p:
+                t1 += table[i][j] + table[j][i]
+            if i not in p and j not in p:
+                t2 += table[i][j] + table[j][i]
+    answer.add(abs(t1 - t2))
+print(min(answer))
