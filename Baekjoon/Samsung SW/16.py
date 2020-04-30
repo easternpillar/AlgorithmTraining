@@ -19,7 +19,6 @@ for _ in range(N):
         ny = ny + di[curve][0]
         map_data[ny][nx] = 0
 
-# 정답 구하기
 cnt = 0
 for i in range(100):
     for j in range(100):
