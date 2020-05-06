@@ -82,7 +82,7 @@ for _ in range(K):
                     idx += 1
                 else:
                     die = tree[i][j][idx:]
-                    for now in die:  # 죽은나무!
+                    for now in die:
                         ground[i][j] += (now // 2)
                     tree[i][j] = tree[i][j][:idx]
                     break
