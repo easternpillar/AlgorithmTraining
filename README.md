@@ -13,3 +13,4 @@ https://programmers.co.kr/learn/courses/4008
 5. Samsung SW: https://www.acmicpc.net/problem/15684
 6. Samsung SW: https://www.acmicpc.net/problem/15685
 7. Samsung SW: https://www.acmicpc.net/problem/16235
+8. Samsung SW: https://www.acmicpc.net/problem/16236
