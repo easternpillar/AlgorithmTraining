@@ -1,6 +1,5 @@
 # Problem:
-#
-# Condition(s):
+# Given edges of a graph, return the number of the farthest nodes.
 
 # My Solution: Denied.
 # from collections import deque
