@@ -9,11 +9,12 @@ https://programmers.co.kr/learn/courses/4008
 ### Programmers
 #### Level 2
 1. Summer/Winter Coding(2019) (Level 2): https://programmers.co.kr/learn/courses/30/lessons/62048?language=python3
+2. Exercise (Level 2): https://programmers.co.kr/learn/courses/30/lessons/12905?language=python3
 #### Level 3
 1. Greedy (Level 3): https://programmers.co.kr/learn/courses/30/lessons/42886?language=python3
 2. Dynamic Programming (Level 3): https://programmers.co.kr/learn/courses/30/lessons/42895?language=python3
 #### Level 4
-4. Dynamic Programming (Level 4): https://programmers.co.kr/learn/courses/30/lessons/42896?language=python3
+1. Dynamic Programming (Level 4): https://programmers.co.kr/learn/courses/30/lessons/42896?language=python3
 
 ### Baekjoon
 #### Samesung SW
