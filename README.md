@@ -16,6 +16,7 @@ https://programmers.co.kr/learn/courses/4008
 #### Level 3
 1. Greedy: https://programmers.co.kr/learn/courses/30/lessons/42886?language=python3
 2. Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42895?language=python3
+3. Exercise: https://programmers.co.kr/learn/courses/30/lessons/12900?language=python3
 #### Level 4
 1. Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42896?language=python3
 
