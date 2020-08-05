@@ -18,6 +18,7 @@ https://programmers.co.kr/learn/courses/4008
 2. Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42895?language=python3
 3. Exercise: https://programmers.co.kr/learn/courses/30/lessons/12900?language=python3
 4. 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60061?language=python3
+5. 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60062
 #### Level 4
 1. Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42896?language=python3
 
