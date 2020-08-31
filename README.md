@@ -2,9 +2,6 @@
 This repository is for training my algorithm skills.
 The language I use is Python3.
 
-## Pre-learning Material(s)
-https://programmers.co.kr/learn/courses/4008
-
 ## Review Needed
 ### Programmers
 #### Level 2
@@ -29,3 +26,6 @@ https://programmers.co.kr/learn/courses/4008
 + Samsung SW: https://www.acmicpc.net/problem/15685
 + Samsung SW: https://www.acmicpc.net/problem/16235
 + Samsung SW: https://www.acmicpc.net/problem/16236
+
+## Pre-learning Material(s)
+https://programmers.co.kr/learn/courses/4008
