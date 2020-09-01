@@ -5,19 +5,20 @@ The language I use is Python3.
 ## Review Needed
 ### Programmers
 #### Level 2
-+ Summer/Winter Coding(2019): https://programmers.co.kr/learn/courses/30/lessons/62048?language=python3
-+ Exercise: https://programmers.co.kr/learn/courses/30/lessons/12899?language=python3
-+ 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60057?language=python3
-+ 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60058?language=python3
-+ Exercise: https://programmers.co.kr/learn/courses/30/lessons/12905?language=python3
++ Summer/Winter Coding(2019): https://programmers.co.kr/learn/courses/30/lessons/62048
++ Exercise: https://programmers.co.kr/learn/courses/30/lessons/12899
++ 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60057
++ 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60058
++ Exercise: https://programmers.co.kr/learn/courses/30/lessons/12905
 #### Level 3
-+ Greedy: https://programmers.co.kr/learn/courses/30/lessons/42886?language=python3
-+ Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42895?language=python3
-+ Exercise: https://programmers.co.kr/learn/courses/30/lessons/12900?language=python3
-+ 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60061?language=python3
++ Greedy: https://programmers.co.kr/learn/courses/30/lessons/42886
++ Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42895
++ Exercise: https://programmers.co.kr/learn/courses/30/lessons/12900
++ 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60061
 + 2020 KAKAO BLIND RECRUITMENT: https://programmers.co.kr/learn/courses/30/lessons/60062
++ Exercise: https://programmers.co.kr/learn/courses/30/lessons/12907
 #### Level 4
-+ Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42896?language=python3
++ Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42896
 
 ### Baekjoon
 #### Samesung SW
