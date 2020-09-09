@@ -19,6 +19,7 @@ The language I use is Python3.
 + Exercise: https://programmers.co.kr/learn/courses/30/lessons/12907
 + Exercise: https://programmers.co.kr/learn/courses/30/lessons/12946
 + Exercise: https://programmers.co.kr/learn/courses/30/lessons/12952
++ 2020 KAKAO INTERNSHIP: https://programmers.co.kr/learn/courses/30/lessons/67258
 #### Level 4
 + Dynamic Programming: https://programmers.co.kr/learn/courses/30/lessons/42896
 
