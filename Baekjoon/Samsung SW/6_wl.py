@@ -86,3 +86,6 @@ for lr in range(2):
     temp = leftright(temp)
 
 print(max(answer))
+
+# Learned:
+# 1. *(Asterisk): unpack the container.
