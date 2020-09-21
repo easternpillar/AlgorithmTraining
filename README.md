@@ -33,4 +33,5 @@ The language I use is Python3.
 + Samsung SW: https://www.acmicpc.net/problem/16236
 
 ## Pre-learning Material(s)
-https://programmers.co.kr/learn/courses/4008
++ https://programmers.co.kr/learn/courses/4008
++ https://www.youtube.com/playlist?list=PLRx0vPvlEmdBFBFOoK649FlEMouHISo8N
