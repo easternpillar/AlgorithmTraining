@@ -5,5 +5,6 @@
 
 # My Solution:
 N = int(input())
+
 temp = sorted(list(map(int, list(input().split()))))
 print(temp[len(temp) // 2])

@@ -3,5 +3,6 @@
 
 # My Solution:
 T = int(input())
+
 for i in range(T):
     print("#{} {}".format(i + 1, max(list(map(int, list(input().split()))))))

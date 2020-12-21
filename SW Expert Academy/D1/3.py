@@ -3,6 +3,7 @@
 
 # My Solution:
 T = int(input())
+
 for i in range(T):
     temp = list(map(int, list(input().split())))
     sign = ''
