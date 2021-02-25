@@ -2,7 +2,45 @@
 This repository is for training my algorithm skills.
 The language I use is Python3.
 
-## What I Learned
+## Newly Learned
+### String
++ .startswith/endswith(str): 문자열이 str로 시작하는지/끝나는지 boolean 값 반환
++ .replace(str1, str2): str1을 찾아 str2로 대체
++ .rjust/ljust(width, [fillchar]): 문자열 오른쪽/왼쪽 정렬
+
+### System
++ sys.stdin.readline(): sys 입력
++ sys.exit(): 프로그램 종료
+
+### ASCII
++ chr(ascii): 아스키코드를 문자로 변환
++ ord(chr): 문자 chr을 아스키코드로 변환
+
+### Math
++ math.inf: 무한대
+
+### Set
++ set(): immutable 자료형를 집합으로 변환
++ .union(): 합집합
++ .intersection(): 교집합
+
+### Counter
++ collections.Counter.most_common(): (원소, 빈도수)를 빈도수 내림차순으로 반환
+
+### Data Structure
++ heapq.heapify(list): 힙큐로 변환
++ heapq.heappush(heap_list, eli): push
++ heapq.heappop(heap_list): pop
++ collections.deque(list): 데크로 변환
++ *: 언패킹
+
+### Base Conversion
++ bin(): 2진수 변환
++ ox(): 8진수 변환
++ hex(): 16진수 변환
+
+### Etc.
++ copy.deepcopy(): 변수 완전 복사
 
 ## Review Needed
 ### Programmers
@@ -45,6 +83,7 @@ The language I use is Python3.
 ## Not Solved
 ### SW Expert Academy
 + D3: https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXZuaLsqz9wDFAST
+
 ## Pre-learning Material(s)
 + 파이썬을 파이썬답게: https://programmers.co.kr/learn/courses/4008
 + [라이브 강의] 이것이 취업을 위한 코딩 테스트다 with Python: https://www.youtube.com/playlist?list=PLRx0vPvlEmdBFBFOoK649FlEMouHISo8N
