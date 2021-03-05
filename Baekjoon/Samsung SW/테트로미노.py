@@ -87,5 +87,3 @@ for lr in range(2):
 
 print(max(answer))
 
-# Learned:
-# 1. *(Asterisk): unpack the container.

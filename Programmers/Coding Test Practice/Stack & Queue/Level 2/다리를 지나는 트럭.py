@@ -28,6 +28,3 @@ def solution(bridge_length, weight, truck_weights):
             else:
                 q.append(0)
     return sec
-
-# Learned:
-# 1. addition is more efficient than appending of a list.

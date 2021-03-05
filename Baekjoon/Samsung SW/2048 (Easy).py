@@ -191,7 +191,3 @@ while q:
 
 if answer:
     print(max(answer))
-
-# Learned:
-# 1. copy.deepcopy(): makes complete copy of an object. general .copy() still refers the inner objects.
-# 2. deque: deque is more efficient than stacks or queues made from a list.

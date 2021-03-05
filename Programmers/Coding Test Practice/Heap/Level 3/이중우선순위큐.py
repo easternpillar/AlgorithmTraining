@@ -51,6 +51,3 @@ def solution(operation):
         answer = [max(temp), min(temp)]
 
     return answer
-
-# Learned:
-# 1. The .pop() method makes heap unusable.

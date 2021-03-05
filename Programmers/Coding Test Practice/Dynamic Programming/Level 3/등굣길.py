@@ -25,6 +25,3 @@ def solution(m, n, puddles):
 
     answer = matrix[n - 1][m - 1]
     return answer % 1000000007
-
-# Learned:
-# 1. matrix = [[value for i in range(m)] for j in range(n)]: matrix = [[value for i in range(m)]]*n has same references to m indices.

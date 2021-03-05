@@ -23,5 +23,3 @@ for i in range(T):
             print(chr(0b000000000000000011111111 & int(bin(temp), 2)), end="")
     print("")
 
-# Learned:
-# 1. bin(): converts the number into binary number.

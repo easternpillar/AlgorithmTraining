@@ -25,6 +25,3 @@ def solution(participant, completion):
             return p
     return participant[-1]
 
-# Learned:
-# 1. collections.Counter(): make hash dictionary (key: elements, value: counts).
-# 2. zip(): combine two elements of each list by same index.

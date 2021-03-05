@@ -34,6 +34,3 @@ def solution(genres, plays):
                 break
             answer.extend([temp[i][1]])
     return answer
-
-# Learned:
-# 1. sorted(temp, key=lambda temp: (-temp[0], temp[1])): multi-key sorting (+- sign means ascendant, descendant).

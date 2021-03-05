@@ -40,5 +40,3 @@ else:
 
     print(min(answer))
 
-# Learned:
-# 1. set(): can only have an immutable parameter.

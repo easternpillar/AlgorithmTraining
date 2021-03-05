@@ -31,7 +31,3 @@ def solution(n, arr1, arr2):
         answer[i] = "".join(temp)
     return answer
 
-# Learned:
-# 1. bin(), ox(), hex(): converts an integer into a binary number. oct() for octal number, hex() for hexadecimal number.
-# 2. rjust(), ljust(): right/left alignment.
-# 3. replace(): finds value and replaces it.

@@ -18,5 +18,3 @@ def solution(n, m):
 
     return answer
 
-# Learned:
-# 1. Euclidean algorithm: https://en.wikipedia.org/wiki/Euclidean_algorithm

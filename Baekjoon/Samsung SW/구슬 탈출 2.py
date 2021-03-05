@@ -138,6 +138,3 @@ while stack:
         stack.append([red_pos, cnt + 1, blue_pos])
 
 print(-1)
-
-# Learned:
-# 1. sys module: sys.exit() is used for termination.

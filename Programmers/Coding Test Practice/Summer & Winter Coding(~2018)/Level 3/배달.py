@@ -89,6 +89,3 @@ def solution(N, road, K):
                 maps[frm][to], maps[to][frm] = w, w
 
     return bfs(1, maps, distance, K)
-
-# Learned:
-# 1. math.inf: means the inifite number.

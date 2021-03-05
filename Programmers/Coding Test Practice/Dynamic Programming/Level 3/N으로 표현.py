@@ -26,7 +26,3 @@ def solution(N, number):
         answer = -1
 
     return answer
-
-# Learned:
-# 1. enumerate(): use if you want to know how many times of loop.
-# 2. Dynamic Programming: uses the smaller solutions to solve the bigger problems.

@@ -37,5 +37,3 @@ def solution(nodeinfo):
     order(nodes, levels, 0)
     return [preorder, postorder]
 
-# Learned:
-# 1. sys.setrecursionlimit(): sets the recursion limitation.

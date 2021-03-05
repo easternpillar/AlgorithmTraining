@@ -27,6 +27,3 @@ def solution(phone_book):
 #         if p2.startswith(p1):
 #             return False
 #     return True
-
-# Learned:
-# 1. .startswith(): compare if it starts with parameter and return boolean value.

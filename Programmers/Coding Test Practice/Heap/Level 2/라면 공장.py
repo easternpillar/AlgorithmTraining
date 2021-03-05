@@ -21,6 +21,3 @@ def solution(stock, dates, supplies, k):
         stock += heapq.heappop(h)[1]
         answer += 1
     return answer
-
-# Learned:
-# 1. Heap Queue reverse sorted: give priorities with (-) values and use values of index 1 of tuple.

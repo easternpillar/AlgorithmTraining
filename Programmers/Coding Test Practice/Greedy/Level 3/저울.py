@@ -30,6 +30,3 @@ def solution(weight):
             answer += w
 
     return answer
-
-# Learned:
-# 1. Sum of weights + 1 = the minimum weight that cannot be measured.

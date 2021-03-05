@@ -15,5 +15,3 @@ def solution(n):
             answer += 1
     return answer - 1
 
-# Learned:
-# 1. Sieve of Eratosthenes: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes.

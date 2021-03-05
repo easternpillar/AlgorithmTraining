@@ -33,6 +33,3 @@ for i in range(N):
         print(i + 1)
 if K not in distance:
     print(-1)
-
-# Learned:
-# 1. sys.stdin.readline().rstrip().split(): faster method for getting inputs.

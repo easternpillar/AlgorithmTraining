@@ -38,6 +38,3 @@ def solution(number, k):
     collected = collected[:-k] if k > 0 else collected
     answer = "".join(collected)
     return answer
-
-# Learned:
-# 1. Stack: stack is better because number[idx:] has O(n) time complexity.

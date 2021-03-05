@@ -11,7 +11,3 @@ for i in range(T):
     print("#{}".format(N), end=" ")
     cnt = Counter(scores)
     print(cnt.most_common()[0][0])
-
-
-# Learned:
-# 1. Counter.most_common(): returns the frequency of each element.

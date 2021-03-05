@@ -37,5 +37,3 @@ def solution(scoville, K):
         answer = answer + 1
         heappush(scoville, first + second * 2)
 
-# Learned:
-# 1. heapq module: module that make heap queue data structure.

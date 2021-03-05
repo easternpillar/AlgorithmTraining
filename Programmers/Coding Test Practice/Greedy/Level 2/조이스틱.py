@@ -62,5 +62,3 @@ def solution(name):
 
     return answer
 
-# Learned:
-# 1. chr() and ord(): convert between ASCII code and character.

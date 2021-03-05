@@ -32,6 +32,3 @@ def solution(numbers):
             answer += 1
 
     return answer
-
-# Learned:
-# 1. itertools: module that makes permutations or combinations.
