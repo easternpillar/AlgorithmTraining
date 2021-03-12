@@ -80,6 +80,7 @@ The language I use is Python3.
 + 2019 KAKAO BLIND RECRUITMENT [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
 + Monthly Code Challenge Season 1 [스타 수열](https://programmers.co.kr/learn/courses/30/lessons/70130)
 + 2021 KAKAO BLIND RECRUITMENT [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
++ 2021 KAKAO BLIND RECRUITMENT [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
 #### Level 4
 + Dynamic Programming [카드 게임](https://programmers.co.kr/learn/courses/30/lessons/42896)
 
