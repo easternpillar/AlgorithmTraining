@@ -8,4 +8,4 @@ import math
 
 
 def solution(w, h):
-    return w * h - (w + h - math.gcd(w, h))
+    return w * h - (math.gcd(w, h)) * (w // math.gcd(w, h) + h // math.gcd(w, h) - 1)
