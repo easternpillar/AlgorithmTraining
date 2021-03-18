@@ -13,55 +13,63 @@
 # 4-5: Returns the generated string.
 
 # My Solution:
-def sep(p):
-    l = r = 0
+
+def isRight(string):
+    temp = string
+    prev = ''
+    while temp:
+        prev = temp
+        temp = temp.replace('()', '')
+        if prev == temp:
+            return False
+    return True
+
+
+def divide(string):
+    lcnt = rcnt = 0
     idx = 0
     u = ''
     v = ''
-    while idx < len(p):
-        if p[idx] == '(':
-            l += 1
+    while True:
+        if idx > len(string) - 1:
+            break
+        if string[idx] == '(':
+            lcnt += 1
         else:
-            r += 1
-        if l == r:
-            u = p[:idx + 1]
-            v = p[idx + 1:]
+            rcnt += 1
+        if lcnt == rcnt:
+            if string[:idx + 1]:
+                u = string[:idx + 1]
+            if string[idx + 1:]:
+                v = string[idx + 1:]
             break
         idx += 1
     return u, v
 
 
-def check(u):
-    l = r = 0
-    idx = 0
-    while idx < len(u):
-        if r > l:
-            return False
-        if u[idx] == '(':
-            l += 1
+def reverse(string):
+    temp = ''
+    for s in string:
+        if s == '(':
+            temp += ')'
         else:
-            r += 1
-        idx += 1
-    return True
+            temp += '('
+    return temp
+
+
+def recur(string):
+    if isRight(string):
+        return string
+    else:
+        u, v = divide(string)
+        if isRight(u):
+            return u + recur(v)
+        else:
+            return '(' + recur(v) + ')' + reverse(u[1:-1])
 
 
 def solution(p):
-    answer = ''
-    result = ''
-
-    if p == "" or check(p):
+    if not p:
         return p
     else:
-        u, v = sep(p)
-
-        if check(u):
-            result = solution(v)
-            return u + result
-        else:
-            u = list(u[1:-1])
-            for i in range(len(u)):
-                if u[i] == '(':
-                    u[i] = ')'
-                else:
-                    u[i] = '('
-            return '(' + solution(v) + ')' + "".join(u)
+        return recur(p)

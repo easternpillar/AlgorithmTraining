@@ -61,8 +61,6 @@ The language I use is Python3.
 #### Level 2
 + Summer/Winter Coding(2019) [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
 + Exercise [124나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
-+ 2020 KAKAO BLIND RECRUITMENT [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
-+ 2020 KAKAO BLIND RECRUITMENT [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
 + Exercise [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905)
 #### Level 3
 + Greedy [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
