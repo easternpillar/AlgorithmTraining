@@ -1,21 +1,18 @@
 # Problem:
-#
+# Given a sequence of integers, print the minimum integer that cannot be made.
 
 # My Solution:
-def possible(digit,target):
-    global temp
-    for i in range(len(temp)-digit):
-        if int(temp[i:i+digit+1])==target:
-            return True
-    return False
-
-T = int(input())
-for i in range(T):
+for i in range(int(input())):
     N = int(input())
-    global temp
-    temp="".join(input().split())
-    for j in range(10):
-        for k in range(10*j,10*(j+1)):
-            if not possible(j,k):
-                print("#{} {}".format(i+1,k))
+    temp = ""
+    while True:
+        temp += "".join(input().split())
+        if len(temp) == N:
+            break
 
+    check = 0
+    while True:
+        if str(check) not in temp:
+            print("#{} {}".format(i + 1, check))
+            break
+        check += 1
