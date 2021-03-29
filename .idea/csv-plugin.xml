@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\SW Expert Academy\D3\0&amp;1 Knapsack.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SW Expert Academy\D3\100만 이하의 모든 소수.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SW Expert Academy\D3\Digit sum.py">
           <value>
             <Attribute>
