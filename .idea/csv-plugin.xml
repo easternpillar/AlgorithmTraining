@@ -73,7 +73,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\SW Expert Academy\D3\홍준이의 숫자 놀이.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SW Expert Academy\D3\화섭이의 정수 나열.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SW Expert Academy\D3\힙.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
