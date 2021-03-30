@@ -63,6 +63,7 @@ The language I use is Python3.
 + Summer/Winter Coding(2019) [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
 + Exercise [124나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
 + Exercise [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905)
+
 #### Level 3
 + Greedy [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
 + Dynamic Programming [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
@@ -80,6 +81,7 @@ The language I use is Python3.
 + Monthly Code Challenge Season 1 [스타 수열](https://programmers.co.kr/learn/courses/30/lessons/70130)
 + 2021 KAKAO BLIND RECRUITMENT [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)
 + 2021 KAKAO BLIND RECRUITMENT [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
+
 #### Level 4
 + Dynamic Programming [카드 게임](https://programmers.co.kr/learn/courses/30/lessons/42896)
 
