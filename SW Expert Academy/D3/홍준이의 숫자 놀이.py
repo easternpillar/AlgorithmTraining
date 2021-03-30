@@ -24,12 +24,13 @@ def euclid(a, b):
         t0 = t1
         t1 = temp - t1 * q
 
-    return s0,t0
+    return s0, t0
 
-answer=[]
+
+answer = []
 for i in range(int(input())):
-    A,B=map(int,input().split())
-    answer.append(euclid(A,B))
+    A, B = map(int, input().split())
+    answer.append(euclid(A, B))
 
 for i in range(len(answer)):
-    print("#{} {} {}".format(i+1,answer[i][0],answer[i][1]))
+    print("#{} {} {}".format(i + 1, answer[i][0], answer[i][1]))
