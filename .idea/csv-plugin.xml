@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\SW Expert Academy\D3\N-Queen.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SW Expert Academy\D3\농작물 수확하기.py">
           <value>
             <Attribute>
@@ -32,6 +39,13 @@
           </value>
         </entry>
         <entry key="\SW Expert Academy\D3\부분 수열의 합.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SW Expert Academy\D3\상호의 배틀필드.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
