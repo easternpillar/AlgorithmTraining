@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\SW Expert Academy\D3\수의 새로운 연산.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SW Expert Academy\D3\승률 비교하기.py">
           <value>
             <Attribute>
@@ -60,6 +67,20 @@
           </value>
         </entry>
         <entry key="\SW Expert Academy\D3\영준이의 카드 카운팅.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SW Expert Academy\D3\원재의 벽 꾸미기.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SW Expert Academy\D3\진기의 최고급 붕어빵.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
