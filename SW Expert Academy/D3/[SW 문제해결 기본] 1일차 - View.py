@@ -3,7 +3,7 @@
 
 # My Solution:
 def light(height, building):
-    highest = max(max(heights[building + 1:building + 3]),max(height[building-2:building]))
+    highest = max(max(heights[building + 1:building + 3]), max(height[building - 2:building]))
     if highest >= height[building]:
         return 0
     else:
@@ -15,7 +15,7 @@ for i in range(10):
     tn = int(input())
     heights = list(map(int, input().split()))
     tot = 0
-    for j in range(2,len(heights)-2):
+    for j in range(2, len(heights) - 2):
         tot += light(heights, j)
 
     answer.append(tot)
