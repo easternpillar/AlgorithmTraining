@@ -35,4 +35,34 @@
 #
 # for i in range(len(answer)):
 #     print("#{} {}".format(i+1,answer[i]))
+import math
 
+
+def divpow(num, p):
+    global MOD
+    if p == 0:
+        return 1
+    elif p == 1:
+        return num
+    if p % 2 == 0:
+        temp = divpow(num, p / 2)
+        return (temp * temp) % MOD
+    temp = divpow(num, p - 1) % MOD
+    return (temp * num) % MOD
+
+
+answer = []
+MOD = 1234567891
+factorial = [0 for _ in range(1000001)]
+factorial[0] = 1
+for i in range(1, len(factorial)):
+    factorial[i] = (factorial[i - 1] * i) % MOD
+
+for i in range(int(input())):
+    N, R = map(int, input().split())
+    up = factorial[N]
+    down = divpow((factorial[N - R] * factorial[R]) % MOD, MOD - 2)
+    answer.append((up * down) % MOD)
+
+for i in range(len(answer)):
+    print("#{} {}".format(i + 1, answer[i]))
