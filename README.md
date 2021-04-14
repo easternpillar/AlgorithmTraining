@@ -26,6 +26,8 @@ The language I use is Python3.
 + set(): immutable 자료형를 집합으로 변환
 + .union(): 합집합
 + .intersection(): 교집합
++ .remove(): 집합에 속한 원소 제거 (집합에 해당 원소가 없으면 오류)
++ .discard(): 집합에 해당 원소가 있다면 제거
 
 ### Collections
 #### Deque
@@ -95,6 +97,9 @@ The language I use is Python3.
 + [드래곤 커브](https://www.acmicpc.net/problem/15685)
 + [나무 재테크](https://www.acmicpc.net/problem/16235)
 + [아기 상어](https://www.acmicpc.net/problem/16236)
+
+#### 동적계획법 2
++ [동전](https://www.acmicpc.net/problem/9084)
 
 ### SW Expert Academy
 #### D3
