@@ -32,6 +32,7 @@ The language I use is Python3.
 ### Collections
 #### Deque
 + .deque(list): 데크로 변환
+
 #### Counter
 + .most_common(): (원소, 빈도수)를 빈도수 내림차순으로 반환
 
@@ -42,7 +43,7 @@ The language I use is Python3.
 
 ### Base Conversion
 + bin(): 2진수 변환
-+ ox(): 8진수 변환
++ oct(): 8진수 변환
 + hex(): 16진수 변환
 
 ### Copy
