@@ -33,3 +33,39 @@ for i in range(N):
         print(i + 1)
 if K not in distance:
     print(-1)
+
+# Other Solution:
+# import sys
+# from collections import deque
+#
+# N, M, K, X = map(int, sys.stdin.readline().split())
+# conn = [[] for _ in range(N + 1)]
+# for i in range(M):
+#     a, b = map(int, sys.stdin.readline().split())
+#     conn[a].append(b)
+#
+# cnt = 0
+# q = deque([[X, 0]])
+# answer = []
+# visited = set()
+# while q:
+#     pos, dist = q.popleft()
+#
+#     if dist > K:
+#         break
+#
+#     if dist == K and pos not in visited:
+#         answer.append(pos)
+#     visited.add(pos)
+#
+#     for c in conn[pos]:
+#         if c not in visited:
+#             q.append([c, dist + 1])
+#             visited.add(pos)
+#
+# if not answer:
+#     print(-1)
+# else:
+#     for a in sorted(answer):
+#         print(a)
+
