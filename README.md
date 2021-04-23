@@ -102,6 +102,15 @@ The language I use is Python3.
 #### 동적계획법 2
 + [동전](https://www.acmicpc.net/problem/9084)
 
+#### 분리집합
++ [집합의 표현](https://www.acmicpc.net/problem/1717)
+
+#### 위상정렬
++ [선수과목 (Prerequisite)](https://www.acmicpc.net/problem/14567)
+
+#### 최소 스패닝 트리
++ [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
+
 ### SW Expert Academy
 #### D3
 + [제곱수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXWXH_h695kDFAST&categoryId=AXWXH_h695kDFAST&categoryType=CODE)
