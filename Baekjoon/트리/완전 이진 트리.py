@@ -1,20 +1,21 @@
 # Problem:
-#
+# Reference: https://www.acmicpc.net/problem/9934
 
 # My Solution:
 import sys
-sys.setrecursionlimit(1000000000)
 
-def divide(arr):
-    length=len(arr)
-    temp=[]
-    temp.append((arr[length // 2]))
-    temp.append(divide(arr[:length // 2]))
-    temp.append(divide(arr[length // 2 + 1:]))
-    return temp
+tree = []
+K = int(sys.stdin.readline().rstrip())
+buildings = [list(map(int, sys.stdin.readline().split()))]
 
+while True:
+    if not buildings[0]:
+        break
 
-K=int(sys.stdin.readline().rstrip())
-buildings=list(map(int,sys.stdin.readline().split()))
-
-print(divide(buildings))
+    temp = []
+    for building in buildings:
+        print(building[len(building) // 2], end=" ")
+        temp.append(building[:len(building) // 2])
+        temp.append(building[len(building) // 2 + 1:])
+    print()
+    buildings = temp[:]
