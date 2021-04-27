@@ -14,8 +14,9 @@ while True:
 
     temp = []
     for building in buildings:
-        print(building[len(building) // 2], end=" ")
-        temp.append(building[:len(building) // 2])
-        temp.append(building[len(building) // 2 + 1:])
+        length=len(building)
+        print(building[length // 2], end=" ")
+        temp.append(building[:length // 2])
+        temp.append(building[length // 2 + 1:])
     print()
     buildings = temp[:]
