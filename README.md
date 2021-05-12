@@ -114,6 +114,9 @@ The language I use is Python3.
 #### 트리 디피
 + [트리와 쿼리](https://www.acmicpc.net/problem/15681)
 
+#### 시뮬레이션
++ [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
+
 ### SW Expert Academy
 #### D3
 + [제곱수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXWXH_h695kDFAST&categoryId=AXWXH_h695kDFAST&categoryType=CODE)
