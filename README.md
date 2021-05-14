@@ -92,7 +92,7 @@ The language I use is Python3.
 + Dynamic Programming [카드 게임](https://programmers.co.kr/learn/courses/30/lessons/42896)
 
 ### Baekjoon
-#### Samesung SW
+#### 삼성 SW 역량 테스트 기출 문제
 + [퇴사](https://www.acmicpc.net/problem/14501)
 + [사다리 조작](https://www.acmicpc.net/problem/15684)
 + [드래곤 커브](https://www.acmicpc.net/problem/15685)
