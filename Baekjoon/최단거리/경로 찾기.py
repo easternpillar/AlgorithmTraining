@@ -6,32 +6,23 @@ import sys
 from collections import deque
 
 
-def bfs(s, e):
-    q = deque()
+def bfs(s):
+    q = deque([s])
     visited = set()
-
-    if s == e:
-        for c in conn[s]:
-            q.append(c)
-    else:
-        q = deque([s])
+    answer = [0 for _ in range(N)]
 
     while q:
         pop = q.popleft()
 
-        if pop == e:
-            return True
-
-        if pop in visited:
-            continue
-
-        visited.add(pop)
-
         for c in conn[pop]:
+            if s == c:
+                answer[c] = 1
             if c not in visited:
                 q.append(c)
+                visited.add(c)
+                answer[c] = 1
 
-    return False
+    return answer
 
 
 N = int(sys.stdin.readline().rstrip())
@@ -42,13 +33,5 @@ for i in range(N):
         if temp[j] == 1:
             conn[i].append(j)
 
-answer = [[0 for _ in range(N)] for _ in range(N)]
-for i in range(len(answer)):
-    for j in range(len(answer)):
-        if bfs(i, j):
-            answer[i][j] = 1
-        else:
-            answer[i][j] = 0
-
-for a in answer:
-    print(*a)
+for i in range(N):
+    print(*bfs(i))
