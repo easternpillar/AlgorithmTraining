@@ -52,7 +52,9 @@ The language I use is Python3.
 ### Itertools
 + .permutations(): 순열
 + .combinations(): 조합
++ .combinations_with_replacement(): 중복 조합
 + .product(): 데카르트 곱
+
 
 ### Dictionary
 .get(key, default): key값이 있는 경우 value, 없는 경우 default 반환
