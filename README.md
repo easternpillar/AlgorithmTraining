@@ -124,6 +124,9 @@ The language I use is Python3.
 #### 구현
 + [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)
 
+#### 자료구조 2
++ [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
+
 ### SW Expert Academy
 #### D3
 + [제곱수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXWXH_h695kDFAST&categoryId=AXWXH_h695kDFAST&categoryType=CODE)
