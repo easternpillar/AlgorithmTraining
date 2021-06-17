@@ -121,9 +121,6 @@ The language I use is Python3.
 #### 시뮬레이션
 + [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 
-#### 구현
-+ [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)
-
 #### 자료구조 2
 + [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
 
@@ -144,6 +141,7 @@ The language I use is Python3.
 ## Not Solved
 ### SW Expert Academy
 + [다트 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXZuaLsqz9wDFAST)
++ [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)
 
 ## Pre-learning Material(s)
 + [파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008)
