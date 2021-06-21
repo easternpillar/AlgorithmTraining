@@ -127,6 +127,9 @@ The language I use is Python3.
 #### 이분탐색
 + [나무 자르기](https://www.acmicpc.net/problem/2805)
 
+#### 분할정복
++ [별 찍기 - 10](https://www.acmicpc.net/problem/2447)
+
 ### SW Expert Academy
 #### D3
 + [제곱수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXWXH_h695kDFAST&categoryId=AXWXH_h695kDFAST&categoryType=CODE)
