@@ -40,6 +40,8 @@ The language I use is Python3.
 + .heapify(list): 힙큐로 변환
 + .heappush(heap_list, eli): push
 + .heappop(heap_list): pop
++ .nlargest(n, iterable): 가장 큰 n개 추출
++ .nsmallest(n, iterable): 가장 작은 n개 추출
 
 ### Base Conversion
 + bin(): 2진수 변환
@@ -124,6 +126,7 @@ The language I use is Python3.
 
 #### 자료구조 2
 + [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
++ [N번째 큰 수](https://www.acmicpc.net/problem/2075)
 
 #### 이분탐색
 + [나무 자르기](https://www.acmicpc.net/problem/2805)
