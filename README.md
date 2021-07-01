@@ -134,6 +134,9 @@ The language I use is Python3.
 #### 분할정복
 + [별 찍기 - 10](https://www.acmicpc.net/problem/2447)
 
+#### 트리
++ [이진 검색 트리](https://www.acmicpc.net/problem/5639)
+
 ### SW Expert Academy
 #### D3
 + [제곱수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXWXH_h695kDFAST&categoryId=AXWXH_h695kDFAST&categoryType=CODE)
