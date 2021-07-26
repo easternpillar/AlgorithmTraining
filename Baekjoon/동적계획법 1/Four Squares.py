@@ -10,11 +10,11 @@ dp[0] = 0
 
 for i in range(2, int(n**0.5+1)):
     for j in range(i**2, n+1):
-        # print(j, i)
+
         if j - i ** 2 < 0:
             continue
         dp[j] = min(dp[j], dp[j - i ** 2] + 1)
-# print(dp)
+
 print(dp[n])
 
 # Other Solution(s):
