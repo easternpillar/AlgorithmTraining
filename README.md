@@ -133,9 +133,13 @@ The language I use is Python3.
 
 #### 분할정복
 + [별 찍기 - 10](https://www.acmicpc.net/problem/2447)
++ [Z](https://www.acmicpc.net/problem/1074)
 
 #### 트리
 + [이진 검색 트리](https://www.acmicpc.net/problem/5639)
+
+#### 누적 합
++ [수들의 합 4](https://www.acmicpc.net/problem/2015)
 
 ### SW Expert Academy
 #### D3
