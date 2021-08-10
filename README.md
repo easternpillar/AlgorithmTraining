@@ -119,9 +119,6 @@ The language I use is Python3.
 #### 최소 스패닝 트리
 + [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
 
-#### 트리 디피
-+ [트리와 쿼리](https://www.acmicpc.net/problem/15681)
-
 #### 시뮬레이션
 + [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 
