@@ -159,7 +159,7 @@ The language I use is Python3.
 + [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)
 + [문제 추천 시스템 Version 1](https://www.acmicpc.net/problem/21939)
 + [작업](https://www.acmicpc.net/problem/2056)
-+ 
++ [트리인가?](https://www.acmicpc.net/problem/6416)
 ## Pre-learning Material(s)
 + [파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008)
 + [[라이브 강의] 이것이 취업을 위한 코딩 테스트다 with Python](https://www.youtube.com/playlist?list=PLRx0vPvlEmdBFBFOoK649FlEMouHISo8N)
