@@ -106,6 +106,7 @@ The language I use is Python3.
 #### 동적계획법 2
 + [동전](https://www.acmicpc.net/problem/9084)
 + [평범한 배낭](https://www.acmicpc.net/problem/12865)
++ [1학년](https://www.acmicpc.net/problem/5557)
 
 #### 분리집합
 + [집합의 표현](https://www.acmicpc.net/problem/1717)
