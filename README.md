@@ -140,6 +140,10 @@ The language I use is Python3.
 
 #### 누적 합
 + [수들의 합 4](https://www.acmicpc.net/problem/2015)
++ [점수따먹기](https://www.acmicpc.net/problem/1749)
+
+#### 최단거리
++ [서강그라운드](https://www.acmicpc.net/problem/14938)
 
 ### SW Expert Academy
 #### D3
