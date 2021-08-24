@@ -61,6 +61,10 @@ The language I use is Python3.
 ### Dictionary
 .get(key, default): key값이 있는 경우 value, 없는 경우 default 반환
 
+### Datetime
+.datetime.strptime(format): 문자열을 datetime으로 변환
+.total_seconds(): datetime을 초로 변환
+
 ### Etc.
 + enumerate(): 순서 지정
 + *: 언패킹
@@ -104,27 +108,12 @@ The language I use is Python3.
 + [아기 상어](https://www.acmicpc.net/problem/16236)
 
 #### 동적계획법 2
-+ [동전](https://www.acmicpc.net/problem/9084)
-+ [평범한 배낭](https://www.acmicpc.net/problem/12865)
 + [1학년](https://www.acmicpc.net/problem/5557)
-
-#### 분리집합
-+ [집합의 표현](https://www.acmicpc.net/problem/1717)
-+ [로봇 조립](https://www.acmicpc.net/problem/18116)
-+ [공항](https://www.acmicpc.net/problem/10775)
-
-#### 위상정렬
-+ [선수과목 (Prerequisite)](https://www.acmicpc.net/problem/14567)
-+ [ACM Craft](https://www.acmicpc.net/problem/1005)
-
-#### 최소 스패닝 트리
-+ [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)
 
 #### 시뮬레이션
 + [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 
 #### 자료구조 2
-+ [이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
 + [N번째 큰 수](https://www.acmicpc.net/problem/2075)
 
 #### 이분탐색
@@ -162,10 +151,13 @@ The language I use is Python3.
 ## Not Solved
 ### SW Expert Academy
 + [다트 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXZuaLsqz9wDFAST)
+
+### Baekjoon
 + [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)
 + [문제 추천 시스템 Version 1](https://www.acmicpc.net/problem/21939)
 + [작업](https://www.acmicpc.net/problem/2056)
 + [트리인가?](https://www.acmicpc.net/problem/6416)
++ 
 ## Pre-learning Material(s)
 + [파이썬을 파이썬답게](https://programmers.co.kr/learn/courses/4008)
 + [[라이브 강의] 이것이 취업을 위한 코딩 테스트다 with Python](https://www.youtube.com/playlist?list=PLRx0vPvlEmdBFBFOoK649FlEMouHISo8N)
