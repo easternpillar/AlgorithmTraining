@@ -113,9 +113,6 @@ The language I use is Python3.
 #### 시뮬레이션
 + [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
 
-#### 자료구조 2
-+ [N번째 큰 수](https://www.acmicpc.net/problem/2075)
-
 #### 이분탐색
 + [나무 자르기](https://www.acmicpc.net/problem/2805)
 
