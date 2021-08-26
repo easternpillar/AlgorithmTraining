@@ -109,6 +109,7 @@ The language I use is Python3.
 
 #### 동적계획법 2
 + [1학년](https://www.acmicpc.net/problem/5557)
++ [줄세우기](https://www.acmicpc.net/problem/2631)
 
 #### 시뮬레이션
 + [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)
