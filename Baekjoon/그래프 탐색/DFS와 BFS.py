@@ -1,5 +1,5 @@
 # Problem:
-#
+# Reference: https://www.acmicpc.net/problem/1260
 
 # My Solution:
 import sys

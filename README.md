@@ -47,6 +47,7 @@ The language I use is Python3.
 + bin(): 2진수 변환
 + oct(): 8진수 변환
 + hex(): 16진수 변환
++ int(string, base): base진법 문자열 표현 string을 10진수로 변환
 
 ### Copy
 + .deepcopy(): 인스턴스 완전 복사
