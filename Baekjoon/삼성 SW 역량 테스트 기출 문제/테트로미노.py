@@ -78,7 +78,7 @@ for lr in range(2):
         for i in range(len(temp)):
             for j in range(len(temp[i])):
                 answer.add(line(temp, [i, j]))
-                answer.add(square(temp,[i,j]))
+                answer.add(square(temp, [i, j]))
                 answer.add(gun(temp, [i, j]))
                 answer.add(worm(temp, [i, j]))
                 answer.add(mnt(temp, [i, j]))
@@ -86,4 +86,3 @@ for lr in range(2):
     temp = leftright(temp)
 
 print(max(answer))
-
