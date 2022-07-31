@@ -102,7 +102,6 @@ The language I use is Python3.
 
 ### Baekjoon
 #### 삼성 SW 역량 테스트 기출 문제
-+ [퇴사](https://www.acmicpc.net/problem/14501)
 + [사다리 조작](https://www.acmicpc.net/problem/15684)
 + [드래곤 커브](https://www.acmicpc.net/problem/15685)
 + [나무 재테크](https://www.acmicpc.net/problem/16235)
